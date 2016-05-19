@@ -1,0 +1,60 @@
+/*#circle{
+	/*width: 120px;
+	height: 120px;
+	background-color: black;
+	position: absolute;
+	left: 315px;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	position: absolute;
+	border-radius: 100%;
+	animation-name: circles;
+	animation-duration: 17s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#circle2{
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	position: absolute;
+	border-radius: 100%;
+	animation-name: circles;
+	animation-duration: 17s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1s
+}
+*/
+#pac{
+	width: 5%;
+	animation-name: circles;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	position: absolute;
+	animation-delay: 1s;
+}
+/*#pac1{
+	width: 5%;	
+	animation-name: circles;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	position: absolute;*/
+	
+}
+@keyframes circles{
+0% {left:0px; top: 0px}
+/*10% {left:110px;top: 603px}
+20% {left: 220px;top:0px}
+30% {left: 330px; top: 603px}
+40% {left: 440px; top: 0px}
+50%{left: 550px; top: 603px}
+60% {left: 660px; top: 0px}
+70% {left: 770px;top: 603px}
+80% {left: 880px; top: 0px}
+90% {left: 990px; top: 603px}*/
+100%{left: 1100px; top: 0px}
+}

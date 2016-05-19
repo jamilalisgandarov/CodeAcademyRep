@@ -1,0 +1,8 @@
+tr:first-child {
+    background-color: black;
+    color: white;
+}
+
+td {
+    padding: 10px;
+}

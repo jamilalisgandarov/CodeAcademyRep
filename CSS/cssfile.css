@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	width:75%;
+	height: 100px;
+	background-color: black;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+.body{
+	width: 100px;
+	height: 100px;
+
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.footer{
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.header p{
+	color: white;
+	padding-left: 10px;
+	padding-top: 10px;
+
+}
+
+.menu{
+	wid
+
+}
+.main .menu ul li{
+list-style-type: none;
+display: inline;
+margin-left: 14px;
+
+}
+.main .menu ul li a{
+	text-decoration: none;
+	background-color: #152B39;
+	padding: 10px;
+	color: white;
+}
+.main .menu ul {
+	margin-top: 20px;
+	margin-right: 20px;
+	float: right;
+}
+.main .menu ul li a:hover{
+	background-color: orange;
+	font-size: 20px;
+}
+.main .menu ul li .active{
+background-color: gray;
+}

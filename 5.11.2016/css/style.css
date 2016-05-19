@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+div {
+    padding: 30px;
+    text-align: justify;
+}

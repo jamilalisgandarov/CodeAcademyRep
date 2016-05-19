@@ -1,0 +1,57 @@
+*{
+		margin:0;
+		padding:0;
+}
+
+.leftalign{
+	text-align: left;
+}
+.centeralign{
+	text-align: center;
+}
+.rightalign{
+	text-align: right;
+}
+.body {
+	width: 300px;
+	height: 300px;
+	text-align: justify;
+	margin: 5px;
+	padding: 5px;
+	border:2px dashed blue;
+	}
+a{
+	text-decoration: none;
+}
+.overlined{
+	text-decoration: overline;
+}
+h1.underlined{
+	text-decoration: underline;
+}
+.linethrough{
+	text-decoration: line-through;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.capitalize{
+	text-transform: capitalize;
+}
+.lowercase{
+	text-transform: lowercase;
+}
+.textindent{
+	text-indent: 50px;
+	letter-spacing: 10px;
+	word-spacing: 5px;
+}
+#shadow{
+	text-shadow: 5px 4px black
+}
+#shadow1{
+	text-shadow: 3px 4px 3px blue;
+}
+#shadow2{
+	text-shadow: 2px 2px 2px red;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+    // a = ["Valeh", "Etibar", "Farid", "Jamil", "Qulu", "Blah", "Blah1", "Blah2", "Blah3", "Blah4", "Blah5", "Blah6", "Blah7"];
+    // console.log(a[Math.floor(Math.random() * a.length)])
+    // day = ["Bazar", "Bazar ertesi", "Cersenbe axsami", "Cersenbe", "Cume axsami", "Cume", "Senbe"];
+    // months = ["Yanvar", "Fevral", "Mart", "Aprel", "May", "Iyun", "Iyul", "Avqust", "Sentyabr", "Oktyabr", "Noyabr", "Dekabr"];
+    // var a = new Date();
+    // console.log("Tarix:" + " " + a.getFullYear() + "-" + a.getDate() + " " + months[a.getMonth()] + "-" + day[a.getDay()]);
+    var d = new Date();
+    now = d.getTime();
+    var b = new Date();
+    b.setFullYear(1998);
+    b.setMonth(4);
+    b.setDate(25);
+    birthday = (b.getTime());
+    difference = now - birthday;
+    year = Math.floor((difference / 31536000));
+    days = Math.floor((difference - year * 31536000) / 86400)
+    hours = Math.floor((difference - year * 31536000 - days * 86400) / 60)
+        // days = (minutes - minutes % 1440) / 1440; // hours = (minutes - days * 1440) / 60;
+
+    console.log("Siz" + " " + difference);
+    </script>
+</body>
+
+</html>

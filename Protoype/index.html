@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+    var code = function() {
+        this.place = "CodeAcademy"
+    }
+    var bdu = function() {
+        this.place = "BDU"
+    }
+    var qafqaz = function() {
+        this.place = "Qafqaz"
+    }
+    var telebe = function(ad, soyad) {
+        this.ad: ad,
+            this.soyad: soyad,
+    }
+    var telebe1 = new telebe("Etibar", "Suleymanov");
+    telebe.prototype = new bdu
+    var telebe2 = new telebe("Nicat", "Babayev");
+    var telebe3 = new telebe("Blah", "Blahov");
+    var telebe4 = new telebe("Eli", "Eliyev");
+    var telebe5 = new telebe("Rail", "Cennetov");
+    var generator = function() {
+
+    }
+    </script>
+</body>
+
+</html>
