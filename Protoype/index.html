@@ -7,27 +7,44 @@
 
 <body>
     <script>
-    var code = function() {
-        this.place = "CodeAcademy"
-    }
-    var bdu = function() {
-        this.place = "BDU"
-    }
-    var qafqaz = function() {
-        this.place = "Qafqaz"
-    }
-    var telebe = function(ad, soyad) {
-        this.ad: ad,
-            this.soyad: soyad,
-    }
-    var telebe1 = new telebe("Etibar", "Suleymanov");
-    telebe.prototype = new bdu
-    var telebe2 = new telebe("Nicat", "Babayev");
-    var telebe3 = new telebe("Blah", "Blahov");
-    var telebe4 = new telebe("Eli", "Eliyev");
-    var telebe5 = new telebe("Rail", "Cennetov");
-    var generator = function() {
+    // function both(ata, atas, ana, anas) {
+    //     this.a = ata,
+    //         this.b = atas,
+    //         this.baba = function(a, b) {
+    //             this.ad = ata,
+    //                 this.soyad = atas
+    //         },
+    //         this.baba1 = function(ana, anas) {
+    //             this.ad = ana,
+    //                 this.soyad = anas
+    //         }
+    // };
 
+    // function neve(tehsil, diplom) {
+    //     this.tehsil = tehsil;
+    //     this.diplom = diplom;
+    // }
+    // neve.prototype = new both(1, 2, 3, 4);
+    // var hesen = new neve("BDU", "Blah");
+    // console.log(hesen)
+    // function ClassA() {
+    //     this.name = name,
+    //     this.surname = surname
+    // } function function_name (argument) {
+
+    // 	 // body...  
+    // }
+
+    // function
+    for (i = 1000; i <= 9999; i++) {
+        var digits = (i).toString(10).split("").map(Number);
+
+        if (Math.pow(digits[0], 3) + Math.pow(digits[1], 3) + Math.pow(digits[2], 3) + Math.pow(digits[3], 3) == i) {
+            // console.log(digits[1])
+        }
+
+
+        // console.log(digits);
     }
     </script>
 </body>
