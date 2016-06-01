@@ -1,0 +1,29 @@
+#About {
+    background-color: #525564;
+}
+
+.height {
+    height: 400px;
+}
+
+#Contacts {
+    background-color: #74828F;
+}
+
+#Customers {
+    background-color: #96C0CE;
+}
+
+#Location {
+    background-color: #BEB9B5;
+}
+
+#Features {
+    background-color: #C25B56;
+}
+
+.navbar,
+.navbar-default,
+.navbar- {
+    position: fixed;
+}

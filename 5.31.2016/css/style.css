@@ -1,0 +1,15 @@
+li {
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid red;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    height: 900px;
+}
