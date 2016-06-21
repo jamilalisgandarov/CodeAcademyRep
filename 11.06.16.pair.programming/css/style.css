@@ -1,0 +1,46 @@
+.empty{
+	width:100%;
+	min-height:10px;
+}
+.main{
+	min-height:400px;
+	margin-top:10%;
+}
+.main .shadow{
+	box-shadow: 0px 20px 100px 5px grey;
+}
+.manitor{
+	background: linear-gradient(to right, #5F82FF , #4d4ac1);
+	min-height:150px;
+}
+.manitor input{
+ 	border:none;
+	text-align:center;
+	margin-top:10px;
+	font-size:30px;
+}
+.manitor input:hover{
+	border:none !important;
+	outline:none !important;
+	box-shadow:none !important;
+}
+input[type=text]:disabled{
+	color: black !important;
+	border:none !important;
+}
+.buttons{
+	background:#1d1e22;
+	min-height:250px;
+}
+.s3 a
+{
+	margin-top:10px;
+	padding-left:0px;
+	padding-right: 0px;
+	width:100%;
+	background: none;
+}
+.s3 a:hover
+{
+	background:#535559;
+}
